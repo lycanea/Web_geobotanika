@@ -1146,8 +1146,6 @@ background: black;
 .btnback{
 position: fixed;
   display: block;
-
-
 color: rgba(32, 32, 32, 0.75);
 bottom: 20px;
 right: 20px;
