@@ -956,7 +956,7 @@ position: fixed;
 			}
 
 /* Footer */
-.footer {
+#footer {
   position: fixed;
   align:center;
   left: 0;
