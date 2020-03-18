@@ -955,60 +955,63 @@ position: fixed;
 				font-size: 1.8em;
 			}
 
-/* Footer */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  opacity: .07;
-  text-align: center;
-}
-	#footer {
-		padding: 1em 0 1em 0;
-		color: white;
-	}
 
-		#footer hr {
-			border-bottom: 1px solid;
-			border-color: inherit;
-			opacity: .07;
-		}
+      /* Footer */
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        opacity: .01;
+      	text-transform: none;
+        text-align: center;
+        			text-decoration: none;
+      }
+      	#footer {
+      		padding: 1em 0 1em 0;
+      		color: white;
+      	}
 
-		#footer .major h2 {
-			color: white;
-		}
+      		#footer hr {
+      			border-bottom: 1px solid;
+      			border-color: inherit;
+      			opacity: .07;
+      		}
 
-		#footer .major .byline {
-			color: white;
-			opacity: .4;
-		}
+      		#footer .major h2 {
+      			color: white;
+      		}
 
-		#footer .copyright {
-			margin-top: 1em;
-			text-align: center;
-		}
+      		#footer .major .byline {
+      			color: white;
+      			opacity: .4;
+      		}
 
-/* Copyright */
+      		#footer .copyright {
+      			margin-top: 1em;
+      			text-align: center;
+      		}
 
-	#copyright {
-		position: fixed;
-		text-transform: none;
-		text-align: center;
-    align: center;
-		padding: 3em 0em 3em 0em;
-		color: white;
-		opacity: 1;
-		font-family: Ubuntu;
-	}
+      /* Copyright */
 
-		#copyright a {
-			text-decoration: none;
-			color: white;
-		}
+      	#copyright {
+
+      		text-transform: none;
+      		text-align: center;
+          align: center;
+      		padding: 3em 0em 3em 0em;
+      		color: white;
+      		opacity: 1;
+      		font-family: Ubuntu;
+      	}
+
+      		#copyright a {
+      			text-decoration: none;
+      			color: white;
+      		}
 
 /* Extra */
 
