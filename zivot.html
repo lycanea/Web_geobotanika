@@ -14,7 +14,7 @@ Geobotanika
 		<meta property="og:image" content="images/carlina.jpg">
 
 
-		
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
@@ -39,15 +39,15 @@ img {vertical-align: middle;}
     } else {
         event.cancelBubble = true;
     }
-    
-    
+
+
     if (isVisible(element.children[1])) {
         hideTree(element.children[1]);
     } else {
         showElement(element.children[1]);
-        
+
         var children = element.parentNode.children
-        
+
         for (var i = 0; i < children.length; i++) {
             if(children[i] != element && isVisible(children[i].children[1])) {
                 hideTree(children[i].children[1])
@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 
 function hideTree(element) {
     hideElement(element)
-    
+
     var children = element.children
     for (var i = 0; i < children.length; i++) {
         if(isVisible(children[i].children[1])) {
@@ -77,8 +77,8 @@ function hideElement(element) {
 
 function isVisible(element) {
     return element.className.match(/(?:^|\s)hidden(?!\S)/) === null
-    
-    
+
+
     var slideIndex = [1,1];
 var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
 showSlides(1, 0);
@@ -93,13 +93,13 @@ function plusSlides(n, no) {
 function showSlides(n, no) {
   var i;
   var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
+  if (n > x.length) {slideIndex[no] = 1}
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex[no]-1].style.display = "block";  
-}												
+  x[slideIndex[no]-1].style.display = "block";
+}
 }</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -111,47 +111,47 @@ function showSlides(n, no) {
 
 		<!-- Header Wrapper -->
 			<div class="wrapper style1">
-			
+
 			<!-- Header -->
 				<div id="header">
 					<div class="container">
 								<!-- Logo -->
-		
+
 						<!-- Logo -->
 							<h1><a href="index.html#uvod" id="logo">Geobotanika</h1>
 
 
 						<!-- Logo -->
 							<h1><a href="#" id="logo"></a></h1>
-						
+
 						<!-- Nav -->
 							<nav id="nav">
 																<ul>
 								<li class="logo"> <p style="display: none;">	</a>Geobotanika</p> </li>
 								<li></li>
 								<li></li>
-									
+
 									<li ><a href="index.html#uvod">Úvod</a></li>
 
-									<li ><a href="zajemce.html#zajemce">Studium</a></li>									
+									<li ><a href="zajemce.html#zajemce">Studium</a></li>
 									<li>
 										<a href="temata.html#temata">Témata</a>
-										
+
 									</li>
 									<li><a href="lide.html#lide">Lidé</a></li>
 											<li><a href="zivot.html#zivot">Život na oddělení</a></li>
-						         <li ><a href="aktuality.html#aktuality">Aktuality</a></li>	
+						         <li ><a href="aktuality.html#aktuality">Aktuality</a></li>
 						         	<li class="enverze">
 										<a href="ENzivot.html#zivot">English version</a>
-										
-									</li>			
-						    <!---  		<li ><a href="indexENG.html#uvod">EN</a></li>  	-->					
+
+									</li>
+						    <!---  		<li ><a href="indexENG.html#uvod">EN</a></li>  	-->
 																    	</ul>
-							</nav>	
-	
+							</nav>
+
 																				<ul>			<li>	<a href="https://www.facebook.com/Geobotanika-841499406188880" class="icon"><img src="images/fa4.png" align="center"; alt=""></a>
 								    	<li>	<a href="index.html" class="icon2"><img src="images/geobotanika.png" alt=""></a></li></ul>
-								    	
+
 <a href="ENzivot.html#zivot" class="circle_fl">
 EN
 </a>
@@ -169,7 +169,7 @@ EN
 				</div>
 
 			</div>
-																				   				<a name=zivot></a> 
+																				   				<a name=zivot></a>
 						<div class="wrapper style3">
 
 
@@ -177,10 +177,10 @@ EN
 
 								<h2>Život na oddělení</h2>
 								</header>
-				<section class="container">																   			
+				<section class="container">
 
 
-<h3>Lužnice</h3>     
+<h3>Lužnice</h3>
 <br>
 Tradiční výjezdní seminář oddělení probíhá na statku Botanického ústavu poblíž obce Lužnice zpravidla ke konci zimního semestru. <br>
 Program se tradičně skládá z flash prezentací zaměstnanců oddělení, debat ohledně organizace studia, sobotního výletu a grilování. Zlatým hřebem je pak zvaná večerní přednáška z jiného oboru (od fyziky, přes umělou inteligenci až po filozofii).<br>
@@ -244,13 +244,13 @@ Mimo to je to taky docela sranda<br>
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 <p>&nbsp;</p>
-<h3>Zimní slunovrat</h3>     
-<br>    
+<h3>Zimní slunovrat</h3>
+<br>
 Geobotanický slunovrat je tradiční událost, která si na jeden večer (a noc) podmaní celou budovu katedry. Je organizována studenty 1. ročníku geobotaniky, kteří krom jídla a pití, zajišťují představení sebe samých zbytku katedry. <br>
 Mimo popíjení, pojídání a konverzování v pracovně, laboratoři a na chodbách, se v pozdních nočních hodinách hraje a zpívá. <br>
 Účast samozřejmě není povinná, ale vážně doporučená.   <br>
-<br>  
-  <a name=vegetace></a> 
+<br>
+  <a name=vegetace></a>
 <div class="slideshow-container">
   <div class="mySlides2">
     <img src="images/Slunovrat/pripravy1.jpg" style="width:100%" alt="Přípravy na slunovrat 2018, Terka, Anička, Adam a Lůca se válí na gauči"
@@ -269,7 +269,7 @@ Mimo popíjení, pojídání a konverzování v pracovně, laboratoři a na chod
   </div>
    <div class="mySlides2">
     <img src="images/Slunovrat/zpivani2.jpg" style="width:100%" alt="zpívání 2016" title="Zpívání 2016">
-  </div>  
+  </div>
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
@@ -278,13 +278,13 @@ Mimo popíjení, pojídání a konverzování v pracovně, laboratoři a na chod
 
 
 <p>&nbsp;</p>
-<h3>Exkurze vegetace střední Evropy</h3>     
-<br>   
+<h3>Exkurze vegetace střední Evropy</h3>
+<br>
 Zásadní událost pro každého studenta geobotaniky. Exkurze má za cíl demonstrovat kromě flóry i důležité vegetační a ekologické fenomény. <br>
 Exkurze se každý rok soustředí na určité území, ve kterém navštíví vícero zajímavých lokalit. Přesuny probíhají především autobusem.  <br>
 Aktuální informace jsou k nalezení na facebookovém profilu exkurze:<a href="https://www.facebook.com/groups/1707463896197163/" >zde</a> <br>
-<br>  
-   <a name=fyt></a> 
+<br>
+   <a name=fyt></a>
 <div class="slideshow-container">
 
  <div class="mySlides3">
@@ -328,12 +328,12 @@ Aktuální informace jsou k nalezení na facebookovém profilu exkurze:<a href="
 
 
 <p>&nbsp;</p>
-<h3>Fyt-pop-kurz</h3>     
+<h3>Fyt-pop-kurz</h3>
 <br>
 Kurz terénních metod ekologie rostlin a fytocenologie je povinný kurz pro studenty geobotaniky. Cílem kurzu je naučit studenty klasické metody užívané v ekologii rostlin - důraz je kladen nejen na vlastní sběr dat v terénu, ale i následnou analýzu a intepretaci výsledků.<br>
-<br>  
-Anotace kurzu v <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=MB120T109" >SIS</a>. 
-<br> 
+<br>
+Anotace kurzu v <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=MB120T109" >SIS</a>.
+<br>
 <br>
 <div class="slideshow-container">
   <div class="mySlides4">
@@ -344,18 +344,18 @@ Anotace kurzu v <a href="https://is.cuni.cz/studium/predmety/index.php?do=predme
   <div class="mySlides4">
     <img src="images/fyt/or.jpg" style="width:100%" alt="Orchis purpurea - objekt sběru dat během kurzu 2019" title="Orchis purpurea - objekt sběru dat během kurzu 2019">
   </div>
-  
+
   <div class="mySlides4">
     <img src="images/fyt/navrat.jpg" style="width:100%" alt="Za každého počasí" title="Za každého počasí">
   </div>
   <div class="mySlides4">
     <img src="images/fyt/bahno.jpg" style="width:100%" alt="Bahno!" title="Bahno!">
   </div>
-  
+
   <div class="mySlides4">
     <img src="images/fyt/disturbance2.jpg" style="width:100%" alt="I takhle může vypadat snímek - zde konkrétně na ploše narušené prasaty" title="I takhle může vypadat snímek - zde konkrétně na ploše narušené prasaty">
-  </div>  
-  
+  </div>
+
   <div class="mySlides4">
     <img src="images/fyt/or2.jpg" style="width:100%" alt="Orchis purpurea - objekt sběru dat během kurzu 2019" title="Orchis purpurea - objekt sběru dat během kurzu 2019">
   </div>
@@ -370,18 +370,18 @@ Anotace kurzu v <a href="https://is.cuni.cz/studium/predmety/index.php?do=predme
   </div>
     <div class="mySlides4">
     <img src="images/fyt/stred.jpg" style="width:100%" alt="Krajina" title="Krajina">
-  </div>  
-  
+  </div>
+
        <div class="mySlides4">
     <img src="images/fyt/op.jpg" style="width:100%" alt="Ophrys insectifera - jedna z rostlin na lokalitách" title="Ophrys insectifera - jedna z rostlin na lokalitách">
   </div>
       <div class="mySlides4">
     <img src="images/fyt/ana.jpg" style="width:100%" alt="Analýza dat..." title="Analýza dat...">
-  </div>  
+  </div>
     <div class="mySlides4">
     <img src="images/fyt/vys.jpg" style="width:100%" alt="...a konečná prezentace výsledků" title="...a konečná prezentace výsledků">
-  </div>  
-  
+  </div>
+
   <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
 </div>
@@ -405,55 +405,47 @@ function plusSlides(n, no) {
 function showSlides(n, no) {
   var i;
   var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
+  if (n > x.length) {slideIndex[no] = 1}
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex[no]-1].style.display = "block";  
+  x[slideIndex[no]-1].style.display = "block";
 }
 </script>
 </div>
 </section>
 
-	<!-- Footer -->
-
-		<div id="footer">
-
-		
-					
-			<!-- Copyright -->
-				<div id="copyright"  style="float:left; width:50%">
-									<a href="ENGindex.html#uvod">
-English version
-</a>	<br> <br>
-					Správce webu: Jakub Štenc - &#106;&#097;&#107;&#117;&#098;&#115;&#116;&#101;&#110;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; 
-
-
-				</div>			
-<div id="copyright"  style="float:right; width:50%">
-									Kontakt: <br>
-									<a href="https://en.mapy.cz/zakladni?x=14.4208689&y=50.0715097&z=17&source=firm&id=419533" >
-Oddělení geobotaniky <br>
-Katedra botaniky <br>
-Přírodovědecká fakulta <br>
-Univerzita Karlova<br>
-Benátská 2 <br>
-128 00 Praha 2	<br>	
-							
-</a>	<br>
-
-
-
-				</div>		
+							<!-- Copyright -->
+								<div id="copyright" >
 
 
 
 
-		
-		
-		</div>
+
+				<p>
+				<a href="https://en.mapy.cz/zakladni?x=14.4208689&y=50.0715097&z=17&source=firm&id=419533" >
+				Oddělení geobotaniky <br>
+				Katedra botaniky,
+				Přírodovědecká fakulta,
+				Univerzita Karlova<br>
+				Benátská 2
+				128 00 Praha 2
+				</a>	<br></p>
+
+				<iframe style="border:none" src="https://en.frame.mapy.cz/s/nacegeguru" width="900" height="200" frameborder="0"></iframe>
 
 
-	</body>
-</html>
+
+
+
+				<br>
+				Webmaster: Jakub Štenc - &#106;&#097;&#107;&#117;&#098;&#115;&#116;&#101;&#110;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+							<br><a href="ENGindex.html#uvod">
+							English version
+							</a>
+
+						</div>
+
+					</body>
+				</html>
