@@ -956,44 +956,6 @@ position: fixed;
 			}
 
 
-      /* Footer */
-      .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: red;
-        color: white;
-        text-align: center;
-        opacity: .01;
-      	text-transform: none;
-        text-align: center;
-        			text-decoration: none;
-      }
-      	#footer {
-      		padding: 1em 0 1em 0;
-      		color: white;
-      	}
-
-      		#footer hr {
-      			border-bottom: 1px solid;
-      			border-color: inherit;
-      			opacity: .07;
-      		}
-
-      		#footer .major h2 {
-      			color: white;
-      		}
-
-      		#footer .major .byline {
-      			color: white;
-      			opacity: .4;
-      		}
-
-      		#footer .copyright {
-      			margin-top: 1em;
-      			text-align: center;
-      		}
 
       /* Copyright */
 
