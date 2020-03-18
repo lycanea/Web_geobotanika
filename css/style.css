@@ -958,6 +958,7 @@ position: fixed;
 /* Footer */
 .footer {
   position: fixed;
+  align:center;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -968,7 +969,6 @@ position: fixed;
   text-decoration: none;
   text-align: center;
   font-family: Ubuntu;
-
 }
 /* Extra */
 
