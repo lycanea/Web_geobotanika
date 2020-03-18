@@ -967,7 +967,27 @@ position: fixed;
   opacity: .07;
   text-align: center;
 }
-	
+#footer .copyright {
+margin-top: 1em;
+text-align: center;
+}
+
+/* Copyright */
+
+#copyright {
+position: relative;
+text-transform: none;
+text-align: center;
+padding: 3em 0em 3em 0em;
+color: white;
+opacity: 1;
+font-family: Ubuntu;
+}
+
+#copyright a {
+text-decoration: none;
+color: white;
+}
 
 /* Extra */
 
