@@ -34,7 +34,7 @@
 
 	body, input, select, textarea {
 		color: #555555;
-		font-family: "Trebuchet MS", Helvetica, sans-serif; 
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 		font-size: 12pt;
 		font-weight: 300;
@@ -139,8 +139,8 @@
 	footer.major {
 		padding-top: 3em;
 	}
-	
-	
+
+
 /* read more */
 .read-more-state {
   display: none;
@@ -151,7 +151,7 @@
 .read-more-target {
   opacity: 1;
   max-height: 0.1;
-  font-size: 0; 
+  font-size: 0;
   text-transform: none;
  text-align: justify;
 
@@ -272,8 +272,8 @@
 				display: block;
 				width: 100%;
 			}
-			
-			
+
+
 			.opylec {
 			position:absolute;
 			top:8000px;
@@ -290,9 +290,9 @@
 			float: none;
 			  margin-left: auto;
   margin-right: auto;
-  
+
 			 }
-}			
+}
 						@media screen and (max-width: 1250px) {
         .banner2 {
 
@@ -301,8 +301,8 @@ width: 648px;
 				  margin-left: auto;
   margin-right: auto;
   display: block;
-  
-      }}		
+
+      }}
 				@media screen and (max-width: 950px) {
         .banner2 {
 
@@ -321,7 +321,7 @@ width: 576px;
   margin-right: auto;
     display: block;
       }}
-      
+
       @media screen and (max-width: 700px) {
         .banner2 {
 
@@ -353,9 +353,9 @@ width: 432px;
 				  margin-left: auto;
   margin-right: auto;
     display: block;
-      }} 
-      
-      
+      }}
+
+
 @media screen and (max-width: 470px) {
         .banner2 {
 
@@ -364,8 +364,8 @@ width: 360px;
 				  margin-left: auto;
   margin-right: auto;
     display: block;
-      }} 
-      
+      }}
+
       @media screen and (max-width: 270px) {
         .banner2 {
 
@@ -374,7 +374,7 @@ width: 180px;
 				  margin-left: auto;
   margin-right: auto;
     display: block;
-      }} 
+      }}
          @media screen and (max-width: 10px) {
         .banner2 {
 display: none;
@@ -386,7 +386,7 @@ display: none;
 		position: fixed;
 		top: 7px;
 		right: 30px;
-	
+
 	}
 @media screen and (max-width: 1020px) {
   .icon {
@@ -401,22 +401,22 @@ display: none;
 	.pes {
 		display: none;
 	}
-	
-	
+
+
 		.icon2 {
 		position: fixed;
 		top: 15px;
 		left: 30px;
-	
+
 	}
 @media screen and (max-width: 1150px) {
   .icon2 {
   display: none;
   }
   }
-		
 
-		
+
+
 /* Lists */
 
 	ol.default {
@@ -591,8 +591,8 @@ display: none;
 			background-size: cover;
 			height: 350px;
 		}
-		
-		
+
+
 		/* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 1600px) {
   .wrapper.style1 {
@@ -602,7 +602,7 @@ display: none;
   .wrapper.style1 {
 
     height: 200px;}}
-    
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 950px) {
@@ -618,7 +618,7 @@ height: 150px;
 display: none;
   }
 }
-		
+
 		.wrapper.style_clonal {
 			padding: 0em;
 			background-image: url("https://botany.natur.cuni.cz/geobotanika/images/clonal_s.jpg");
@@ -688,8 +688,8 @@ display: none;
 				padding-left: 10em;
 				padding-right: 10em;tra
 				width: 1000px;}
-				
-				
+
+
 		.wrapper.style6 {
 			padding-bottom: 10em;
 			background: white;
@@ -704,7 +704,7 @@ display: none;
 
 
 
-  
+
 		.wrapper.style4 {
 			background: white;
 			text-align: justify;
@@ -729,7 +729,7 @@ display: none;
 					border: 10px solid;
 					border-color: grey;;
 				}
-		
+
 
 
 
@@ -750,21 +750,21 @@ display: none;
 			z-index: 2;
 		}
 		 #header .transka2  {
-			position: fixed;		
-		background: black;		
+			position: fixed;
+		background: black;
 	    position: absolute;
 	    display: none;
 			width: 100%;
 						height: 0em;
 		top: 0;
 		right: 100em;}
-		
-		
+
+
 		/* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (min-width: 950px) {
   .header .transka2 {
-			position: fixed;		
-		background: black;		
+			position: fixed;
+		background: black;
 	    position: absolute;
 			width: 100%;
 						height: 50em;
@@ -772,11 +772,11 @@ display: none;
 		right: 10em;}
   }
 
-		
+
 		#header .pic {
 position: fixed;
 
-       } 
+       }
 
 	.homepage #logo {
 		display: none;
@@ -818,9 +818,9 @@ position: fixed;
    	text-align: center;
 	}
 	.transka #nav {
-	    background: black;	
+	    background: black;
 	    opacity: 0.8;
-	    			width: 100%;	
+	    			width: 100%;
 	    position: absolute;
 		top: 0;
 		right: 0;
@@ -986,7 +986,7 @@ position: fixed;
 /* Copyright */
 
 	#copyright {
-		position: relative;
+		position: absolute;
 		text-transform: none;
 		text-align: center;
 		padding: 3em 0em 3em 0em;
@@ -1030,11 +1030,11 @@ position: fixed;
 		text-transform: none;
 		font-weight: 700;
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	/* Sidebar */
 	/* The side navigation menu */
 .sidebar {
@@ -1086,7 +1086,7 @@ div.content {
   .sidebar {
 
     display: none;}}
-    
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 950px) {
@@ -1148,7 +1148,7 @@ position: absolute;
    box-sizing: border-box;
 background: white;
 color: rgba(32, 32, 32, 0.75);
-   
+
 padding: 3px;
     font-size: 15px;
 
@@ -1160,7 +1160,7 @@ text-decoration:none;
     transition: .2s;
 
 }
- 
+
 
 .btn:hover{
 background: black;
@@ -1190,7 +1190,7 @@ text-decoration:none;
 
 
 }
- 
+
 
 
 
@@ -1198,7 +1198,7 @@ text-decoration:none;
  position:absolute;
 
     right: 80px;
-    top: 15px;  
+    top: 15px;
     display: inline-block;
 
     box-sizing: border-box;
@@ -1244,4 +1244,3 @@ text-decoration:none;
 display: none;
   }
 }
-
