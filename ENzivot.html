@@ -14,7 +14,7 @@ Geobotanika
 		<meta property="og:image" content="images/carlina.jpg">
 
 
-		
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
@@ -39,15 +39,15 @@ img {vertical-align: middle;}
     } else {
         event.cancelBubble = true;
     }
-    
-    
+
+
     if (isVisible(element.children[1])) {
         hideTree(element.children[1]);
     } else {
         showElement(element.children[1]);
-        
+
         var children = element.parentNode.children
-        
+
         for (var i = 0; i < children.length; i++) {
             if(children[i] != element && isVisible(children[i].children[1])) {
                 hideTree(children[i].children[1])
@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 
 function hideTree(element) {
     hideElement(element)
-    
+
     var children = element.children
     for (var i = 0; i < children.length; i++) {
         if(isVisible(children[i].children[1])) {
@@ -77,8 +77,8 @@ function hideElement(element) {
 
 function isVisible(element) {
     return element.className.match(/(?:^|\s)hidden(?!\S)/) === null
-    
-    
+
+
     var slideIndex = [1,1];
 var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
 showSlides(1, 0);
@@ -93,13 +93,13 @@ function plusSlides(n, no) {
 function showSlides(n, no) {
   var i;
   var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
+  if (n > x.length) {slideIndex[no] = 1}
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex[no]-1].style.display = "block";  
-}												
+  x[slideIndex[no]-1].style.display = "block";
+}
 }</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -111,46 +111,46 @@ function showSlides(n, no) {
 
 		<!-- Header Wrapper -->
 			<div class="wrapper style1">
-			
+
 			<!-- Header -->
 				<div id="header">
 					<div class="container">
 								<!-- Logo -->
-		
+
 						<!-- Logo -->
 							<h1><a href="index.html#uvod" id="logo">Geobotanika</h1>
 
 
 						<!-- Logo -->
 							<h1><a href="#" id="logo"></a></h1>
-						
+
 						<!-- Nav -->
 							<nav id="nav">
 																<ul>
 								<li class="logo"> <p style="display: none;">	</a>Geobotanika</p> </li>
 								<li></li>
 								<li></li>
-									
+
 																<li ><a href="ENGindex.html#uvod">About</a></li>
 
-									<li ><a href="ENstudium_nove.html#zajemce">Study</a></li>									
+									<li ><a href="ENstudium_nove.html#zajemce">Study</a></li>
 									<li>
 										<a href="ENtemata.html#temata">Research Topics</a>
-										
+
 									</li>
 									<li><a href="ENlide.html#lide">People</a></li>
 											<li><a href="ENzivot.html#zivot">Activity</a></li>
-						         <li ><a href="ENaktuality.html#aktuality">Actuality</a></li>	
+						         <li ><a href="ENaktuality.html#aktuality">Actuality</a></li>
 						   									         <li >
 										<a href="zivot.html#zivot">Česká verze</a>
-										
-									</li>		
+
+									</li>
 																    	</ul>
-							</nav>	
-	
+							</nav>
+
 																				<ul>			<li>	<a href="https://www.facebook.com/Geobotanika-841499406188880" class="icon"><img src="images/fa4.png" align="center"; alt=""></a>
 								    	<li>	<a href="index.html" class="icon2"><img src="images/geobotanika.png" alt=""></a></li></ul>
-								    	
+
 <a href="zivot.html#zivot" class="circle_fl">
 CZ
 </a>
@@ -168,7 +168,7 @@ CZ
 				</div>
 
 			</div>
-																				   				<a name=zivot></a> 
+																				   				<a name=zivot></a>
 						<div class="wrapper style3">
 
 
@@ -176,10 +176,10 @@ CZ
 
 								<h2>Life on the department and other activity</h2>
 								</header>
-				<section class="container">																   			
+				<section class="container">
 
 
-<h3>Lužnice</h3>     
+<h3>Lužnice</h3>
 <br>
 Traditional annual weekend meeting of the Plant Ecology unit takes place in Lužnice village in South Bohemia at the end of autumn (winter) semester.
 Program: discussions about lectures and curriculum, flash presentations, a talk by a guest speaker on a topic not closely related to plant ecology (from quantum physics to modern art), field trip, barbecue
@@ -243,11 +243,11 @@ Program: discussions about lectures and curriculum, flash presentations, a talk 
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 <p>&nbsp;</p>
-<h3>Winter "Slunovrat" (=soltice) party</h3>     
-<br>    
+<h3>Winter "Slunovrat" (=soltice) party</h3>
+<br>
 Party of the Plant Ecology unit. Party is organisated by students in the last week before Christmas.<br>
-<br>  
-  <a name=vegetace></a> 
+<br>
+  <a name=vegetace></a>
 <div class="slideshow-container">
   <div class="mySlides2">
     <img src="images/Slunovrat/pripravy1.jpg" style="width:100%" alt="Přípravy na slunovrat 2018, Terka, Anička, Adam a Lůca se válí na gauči"
@@ -266,7 +266,7 @@ Party of the Plant Ecology unit. Party is organisated by students in the last we
   </div>
    <div class="mySlides2">
     <img src="images/Slunovrat/zpivani2.jpg" style="width:100%" alt="zpívání 2016" title="Zpívání 2016">
-  </div>  
+  </div>
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
@@ -275,11 +275,11 @@ Party of the Plant Ecology unit. Party is organisated by students in the last we
 
 
 <p>&nbsp;</p>
-<h3>Vegetation of Central Europe excursion </h3>     
-<br>   
+<h3>Vegetation of Central Europe excursion </h3>
+<br>
 Goals of excursion is to demonstrate species diversity, vegetation types and ecological phenomena in field. <br> Recent information: <a href="https://www.facebook.com/groups/1707463896197163/" >here</a> (in czech only, for more information in english you contact <a href= "ENlide.html#novak")>Jan Novák</a> <br>
-<br>  
-   <a name=fyt></a> 
+<br>
+   <a name=fyt></a>
 <div class="slideshow-container">
 
  <div class="mySlides3">
@@ -325,9 +325,9 @@ Goals of excursion is to demonstrate species diversity, vegetation types and eco
 <p>&nbsp;</p>
 <h3>Fyt-pop-course </h3>
 Course of filed methods in plant ecology, plant population biology and vegetation science. Course is compulsory for students at the Plant Ecology unit. <br>
-<br>  
-Annotation <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=MB120T109" >SIS</a>. 
-<br> 
+<br>
+Annotation <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=MB120T109" >SIS</a>.
+<br>
 <br>
 <div class="slideshow-container">
   <div class="mySlides4">
@@ -338,18 +338,18 @@ Annotation <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod
   <div class="mySlides4">
     <img src="images/fyt/or.jpg" style="width:100%" alt="Orchis purpurea - objekt sběru dat během kurzu 2019" title="Orchis purpurea - objekt sběru dat během kurzu 2019">
   </div>
-  
+
   <div class="mySlides4">
     <img src="images/fyt/navrat.jpg" style="width:100%" alt="Za každého počasí" title="Za každého počasí">
   </div>
   <div class="mySlides4">
     <img src="images/fyt/bahno.jpg" style="width:100%" alt="Bahno!" title="Bahno!">
   </div>
-  
+
   <div class="mySlides4">
     <img src="images/fyt/disturbance2.jpg" style="width:100%" alt="I takhle může vypadat snímek - zde konkrétně na ploše narušené prasaty" title="I takhle může vypadat snímek - zde konkrétně na ploše narušené prasaty">
-  </div>  
-  
+  </div>
+
   <div class="mySlides4">
     <img src="images/fyt/or2.jpg" style="width:100%" alt="Orchis purpurea - objekt sběru dat během kurzu 2019" title="Orchis purpurea - objekt sběru dat během kurzu 2019">
   </div>
@@ -364,18 +364,18 @@ Annotation <a href="https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod
   </div>
     <div class="mySlides4">
     <img src="images/fyt/stred.jpg" style="width:100%" alt="Krajina" title="Krajina">
-  </div>  
-  
+  </div>
+
        <div class="mySlides4">
     <img src="images/fyt/op.jpg" style="width:100%" alt="Ophrys insectifera - jedna z rostlin na lokalitách" title="Ophrys insectifera - jedna z rostlin na lokalitách">
   </div>
       <div class="mySlides4">
     <img src="images/fyt/ana.jpg" style="width:100%" alt="Analýza dat..." title="Analýza dat...">
-  </div>  
+  </div>
     <div class="mySlides4">
     <img src="images/fyt/vys.jpg" style="width:100%" alt="...a konečná prezentace výsledků" title="...a konečná prezentace výsledků">
-  </div>  
-  
+  </div>
+
   <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
 </div>
@@ -399,57 +399,49 @@ function plusSlides(n, no) {
 function showSlides(n, no) {
   var i;
   var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
+  if (n > x.length) {slideIndex[no] = 1}
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+     x[i].style.display = "none";
   }
-  x[slideIndex[no]-1].style.display = "block";  
+  x[slideIndex[no]-1].style.display = "block";
 }
 </script>
 </div>
 </section>
 
-	
-	
-<!-- Footer -->
 
-		<div id="footer">
-
-		
-					
 			<!-- Copyright -->
-				<div id="copyright"  style="float:left; width:50%">
-									<a href="zivot.html#zivot">
-Česká verze
-</a>	<br> <br>
-					Webmaster: Jakub Štenc - &#106;&#097;&#107;&#117;&#098;&#115;&#116;&#101;&#110;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; 
+				<div id="copyright" >
 
 
-				</div>			
-<div id="copyright"  style="float:right; width:50%">
-									Contact: <br>
-									<a href="https://en.mapy.cz/zakladni?x=14.4208689&y=50.0715097&z=17&source=firm&id=419533" >
+
+
+
+<p>
+<a href="https://en.mapy.cz/zakladni?x=14.4208689&y=50.0715097&z=17&source=firm&id=419533" >
 Plant ecology unit <br>
-Department of Botany  <br>
-Faculty of Science <br>
+Department of Botany,
+Faculty of Science,
 Charles University<br>
-Benátská 2 <br>
-128 00 Prague 2	<br>	
-					Czech Republic		
-</a>	<br>
+Benátská 2
+128 00 Prague 2,
+Czech Republic
+</a>	<br></p>
+
+<iframe style="border:none" src="https://en.frame.mapy.cz/s/nacegeguru" width="900" height="200" frameborder="0"></iframe>
 
 
 
-				</div>		
 
 
+<br>
+Webmaster: Jakub Štenc - &#106;&#097;&#107;&#117;&#098;&#115;&#116;&#101;&#110;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+			<br><a href="index.html#uvod">
+			Česká verze
+			</a>
 
-
-		
-		
 		</div>
-
 
 	</body>
 </html>
