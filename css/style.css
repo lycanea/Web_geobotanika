@@ -970,6 +970,44 @@ position: fixed;
   text-align: center;
   font-family: Ubuntu;
 }
+
+  #footer hr {
+    border-bottom: 1px solid;
+    border-color: inherit;
+    opacity: .07;
+  }
+
+  #footer .major h2 {
+    color: white;
+  }
+
+  #footer .major .byline {
+    color: white;
+    opacity: .4;
+  }
+
+  #footer .copyright {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  /* Copyright */
+
+	#copyright {
+		position: relative;
+		text-transform: none;
+		text-align: center;
+		padding: 3em 0em 3em 0em;
+		color: white;
+		opacity: 1;
+		font-family: Ubuntu;
+	}
+
+		#copyright a {
+			text-decoration: none;
+			color: white;
+		}
+
 /* Extra */
 
 	#extra1 h2 {
