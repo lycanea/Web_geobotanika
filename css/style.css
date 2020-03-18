@@ -961,34 +961,15 @@ position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: black;
   color: white;
   text-align: center;
-  opacity: .07;
+  opacity: .1;
+  text-decoration: none;
   text-align: center;
-}
-#footer .copyright {
-margin-top: 1em;
-text-align: center;
-}
+  font-family: Ubuntu;
 
-/* Copyright */
-
-#copyright {
-position: relative;
-text-transform: none;
-text-align: center;
-padding: 3em 0em 3em 0em;
-color: white;
-opacity: 1;
-font-family: Ubuntu;
 }
-
-#copyright a {
-text-decoration: none;
-color: white;
-}
-
 /* Extra */
 
 	#extra1 h2 {
