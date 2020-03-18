@@ -955,34 +955,6 @@ position: fixed;
 				font-size: 1.8em;
 			}
 
-/* Footer */
-
-	#footer {
-		padding: 1em 0 1em 0;
-		text-align: center;
-		color: white;
-	}
-
-		#footer hr {
-			border-bottom: 1px solid;
-			border-color: inherit;
-			opacity: .07;
-		}
-
-		#footer .major h2 {
-			color: white;
-		}
-
-		#footer .major .byline {
-			color: white;
-			opacity: .4;
-		}
-
-		#footer .copyright {
-			margin-top: 1em;
-			text-align: center;
-		}
-
 /* Copyright */
 
 	#copyright {
