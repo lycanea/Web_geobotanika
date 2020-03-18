@@ -995,7 +995,7 @@ position: fixed;
 /* Copyright */
 
 	#copyright {
-		position: absolute;
+		position: fixed;
 		text-transform: none;
 		text-align: center;
     align: center;
