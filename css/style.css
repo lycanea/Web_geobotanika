@@ -989,6 +989,7 @@ position: fixed;
 		position: absolute;
 		text-transform: none;
 		text-align: center;
+    align: center;
 		padding: 3em 0em 3em 0em;
 		color: white;
 		opacity: 1;
